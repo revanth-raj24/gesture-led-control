@@ -1,10 +1,10 @@
-🌟 Gesture-Based LED Brightness Control (Computer Vision + Arduino)
+# 🌟 Gesture-Based LED Brightness Control (Computer Vision + Arduino)
 
 This project demonstrates a touchless physical computing interface where the brightness of an LED is controlled using hand gestures. Using MediaPipe and OpenCV, the system measures the distance between the user's thumb and index finger and sends a real-time brightness value (0–255) to an Arduino, which drives an LED using PWM.
 
 This project highlights how computer vision can interact with physical hardware, enabling smart interfaces and assistive technologies.
 
-🚀 Features
+# 🚀 Features
 
 Real-time hand tracking using MediaPipe
 
@@ -20,7 +20,7 @@ Supports external webcams
 
 Lightweight and easy to run
 
-🧩 How It Works
+# 🧩 How It Works
 
 
 Camera → OpenCV → MediaPipe Hand Tracking → Distance Calculation → Serial → Arduino → PWM → LED
@@ -38,7 +38,7 @@ Value is sent to Arduino over USB serial
 
 Arduino sets LED brightness using analogWrite()
 
-🛠️ Hardware Requirements
+# 🛠️ Hardware Requirements
 
 Arduino Uno / Nano / Mega
 
@@ -58,7 +58,7 @@ USB cable
 Arduino Pin 9 → LED (+)
 LED (–) → 220Ω resistor → GND
 
-💻 Software Requirements
+# 💻 Software Requirements
 
 Python 3.10 (MediaPipe does not support 3.12+)
 
@@ -102,7 +102,7 @@ Update in Python:
 
 arduino = serial.Serial('COM4', 9600)
 
-🎯 Applications
+# 🎯 Applications
 
 Touchless smart home control
 
@@ -114,16 +114,14 @@ Interactive art installations
 
 Human–computer interaction demos
 
-📄 License
+# 📄 License
 
 This project is licensed under the MIT License.
 
-💬 Contribute
+# 💬 Contribute
 
 Contributions, improvements, and suggestions are welcome.
 You can help expand this into a multi-gesture or multi-device control system.
-
-numpy
 
 Install using:
 
